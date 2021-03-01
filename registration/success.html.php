@@ -17,14 +17,8 @@
 <body>
     <div id="wrapper">
     <main>
-      <nav>
-        <header class="header">
-         <input class="menu-btn" type="checkbox" id="menu-btn" />
-         <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
-         <h1 id="logo">Confirmation</h1>
-            <?php include '../includes/nav.inc.html.php'; ?>
-        </header>
-      </nav>
+        <?php include '../includes/nav.inc.html.php'; ?>
+        
          <h2>Thank you!</h2>
             <p>Our records show you submitted the following:<br>
                Role: <?php echo htmlspecialchars($role, ENT_QUOTES, 'UTF-8');?> <!-- print role from form submission here --><br>

@@ -61,4 +61,5 @@ if (isset($_POST['myfname']) && empty($honeypot) )
       include 'registration.html.php'; 
  }
 
+
 ?>

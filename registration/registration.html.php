@@ -16,15 +16,10 @@
 </head>
 <body>
     <div id="wrapper">
-        <header class="header">
-         <input class="menu-btn" type="checkbox" id="menu-btn" />
-         <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
-         <h1 id="logo">Registration</h1>
-            <?php include '../includes/header.inc.html.php'; ?>
             <?php include '../includes/nav.inc.html.php'; ?>
-        </header>
     <main>    
-       <h1>Register Here!</h1>
+       <h1>Registration</h1>
+        <h2>Register Here!</h2>
       <div id="source">Required fields are marked with an asterisk (*).</div>
       <div id="registration">
       <form method="post" action=" ">
@@ -73,6 +68,7 @@
     </main>
         <?php include '../includes/footer.inc.html.php'; ?>
   </div>
+    
     
 </body>
 </html>
