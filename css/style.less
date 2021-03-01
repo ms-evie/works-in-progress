@@ -38,7 +38,7 @@ Programmer: Evelyn Vasquez
 @dBodyMargin: 0 3%;
 @olLiLeftMargin: 8px;
 
-@import "mixins.less";
+@import "mixin.less";
 
 
 /* MOBILE STYLES */
@@ -73,7 +73,8 @@ p {
 }
 
 h1 {
-    color: @footerColor;
+    color: @BgColor;
+    background-color: @footerColor;
 	margin: @pHeadingMargin;
 	font-weight: bold;
 	#mixins > .size(@h1FontSize); 
@@ -84,7 +85,7 @@ h1 {
 }
 
 h2 {
-    font: @@h2FontSize;
+    font: @h2FontSize;
 	margin: @pHeadingMargin;
 	font-weight: bold;
 }
@@ -249,34 +250,33 @@ a.reserve div {
 }
 
 footer {
-    background-color: @footerColor;
-	margin-bottom: 10px;
-    font-size: 1em;
+    color: @footerColor;
+	margin-bottom: 7px;
+    font-size: .8em;
 	font-style: italic;
-    padding-top: 50px;
+    padding-top: 30px;
     padding-bottom: 10px;
     text-align: center;
-    #mixins > .color(@BgColor);
+    
 }
 
 footer a{
-    color: @BgColor;
+    color: @footerColor;
     margin-right: .5em;
     text-decoration: none;
 }
 
 footer a:hover {
-    background-color: @hoverColor;
+    background-color: @HoverColor;
 }
 
-form {
-     background-image: url(images/); 
-     background-color: @BgColor; 
+form { 
+     background-color: @BgColor;
+     font-size: 12px;
      font-family: Prata, Arial, serif; 
-     padding: 10px; 
-     padding-top: 35px; 
+     padding-bottom: 25px; 
+      
 }
-
 
 
 /* TABLET STYLES */
