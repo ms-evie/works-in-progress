@@ -16,15 +16,11 @@
 </head>
 <body>
     <div id="wrapper">
-   
-        <header class="header">
-         <input class="menu-btn" type="checkbox" id="menu-btn" />
-         <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
-         <h1 id="logo">Ace in the Hole Multisport Events</h1>
-            <?php include 'includes/header.inc.html.php'; ?>
-            <?php include 'includes/nav.inc.html.php'; ?>
-        </header>
-        <main>
+            
+           <?php include 'includes/nav.inc.html.php'; ?>
+            
+        
+           <main>
             <?php foreach ($contents as $content): ?>
             <?php echo "<img src=".$content['image'].">" ; ?>
             <h1><?php echo htmlspecialchars($content['title'], ENT_QUOTES, 'UTF-8'); ?></h1>
