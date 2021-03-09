@@ -16,18 +16,17 @@
 </head>
 <body>
     <div id="wrapper">
-            
-           <?php include 'includes/nav.inc.html.php'; ?>
-            
-        
-           <main>
+        <?php include 'includes/nav.inc.html.php'; ?>
+    <main>
             <?php foreach ($contents as $content): ?>
             <?php echo "<img src=".$content['image'].">" ; ?>
-            <h1><?php echo htmlspecialchars($content['title'], ENT_QUOTES, 'UTF-8'); ?></h1>
+       
+        <h1> About Ace in the Hole </h1>
+        <p>Ace in the Hole Multisport Events is proud to offer running and triathlon events to athletes of all shapes and sizes, nationalorigins, gender identifications and cultural backgrounds. We offer Events for Every Body.</p>
+            
+        <h2><?php echo htmlspecialchars($content['title'], ENT_QUOTES, 'UTF-8'); ?></h2>
                 <?php echo $content['description']; ?>
             <?php endforeach; ?>
-    
-        
     </main>
         <?php include 'includes/footer.inc.html.php'; ?>
   </div>
