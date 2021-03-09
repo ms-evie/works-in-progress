@@ -7,5 +7,4 @@
         <a href="<?php echo BASE_URL; ?>faq">FAQ</a>
     </div>
         <p>Copyright &copy; <?php echo date('Y'); ?> Ace in the Hole Multisport Events<br>
-        <a href="mailto:hello@aceinthehole.com">hello@aceinthehole.com</a></p>
 </footer>

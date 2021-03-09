@@ -1,4 +1,5 @@
 <?php define('BASE_URL', '/cas222/project/'); ?>
+
 <nav>
     <header class="header">
          <input class="menu-btn" type="checkbox" id="menu-btn" />
