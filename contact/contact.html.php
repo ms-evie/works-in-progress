@@ -16,13 +16,9 @@
 </head>
 <body>
     <div id="wrapper">
-        <header class="header">
-         <input class="menu-btn" type="checkbox" id="menu-btn" />
-         <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
-         <h1 id="logo">Contact Us</h1>
             <?php include '../includes/nav.inc.html.php'; ?>
-        </header>
         <main>
+        <h1>Contact Us</h1>    
         <h2>Do you have questions? We'd love to hear from you!</h2>
       <form method="post" action=" " id="inquiryForm">
         <input type="text" name="honeypot" id="honeypot" value="" alt="if you fill this field out then your email will not be sent"/>

@@ -16,15 +16,6 @@
 </head>
 <body>
     <div id="wrapper">
-
-        <header class="header">
-         <input class="menu-btn" type="checkbox" id="menu-btn" />
-         <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
-         <h1 id="logo">Registration</h1>
-            <?php include '../includes/nav.inc.html.php'; ?>
-        </header>
-      
-           
             <?php include '../includes/nav.inc.html.php'; ?>
             <main>
                 <h2>Thank you!</h2>
