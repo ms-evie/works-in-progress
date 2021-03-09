@@ -28,7 +28,7 @@ body {
   line-height: 2em;
   padding: 20px;
   background-color: #FFFFFF;
-  font-size: 16px;
+  font-size: 12px;
   margin: 0 1em;
 }
 dd {
@@ -53,14 +53,15 @@ h1 {
   line-height: 2em;
 }
 h2 {
-  font: 2.4em;
+  font: 2.5em;
   margin: 1em 0;
   font-weight: bold;
+  text-decoration: underline;
 }
 h3 {
   margin: 1em 0;
   font-weight: bold;
-  font-size: 1.8em;
+  font-size: 2em;
   font-style: italic;
 }
 header {
@@ -104,28 +105,25 @@ select {
   margin-bottom: 2em;
 }
 table {
-  border: 2px solid #ffffff;
+  border: 2px solid #000000;
   margin: auto;
   padding-bottom: 50px;
-  width: 600px;
+  width: 350px;
 }
 td {
-  background-color: #ffffff;
-  border: 1px solid #0b344d;
-  color: #363636;
+  background-color: #FFFFFF;
+  border: 1px solid #000000;
   font-weight: bold;
   font-family: Prata, Arial, serif;
-  font-size: 0.95em;
-  padding: 0.5em;
+  font-size: 12px;
   text-align: center;
 }
 th {
-  background-color: #0b344d;
-  color: #ffffff;
-  font-size: 1.15em;
-  font-weight: bold;
+  background-color: #FFFFFF;
+  color: #000000;
+  border: 1px solid #000000;
+  font-size: 12px;
   font-family: Prata, Arial, serif;
-  padding: 0.5em;
   text-align: center;
 }
 a.reserve {
@@ -221,7 +219,7 @@ form {
 @media only screen and (min-width: 600px) {
   body {
     background-color: #FFFFFF;
-    font-size: 14.4px;
+    font-size: 14px;
     margin: 0 4%;
   }
   h1 {
@@ -258,10 +256,6 @@ form {
     padding-bottom: 0.1em;
     padding-left: 0.4em;
   }
-  main img {
-    display: none;
-    padding-right: 0;
-  }
   main ul {
     list-style-position: outside;
   }
@@ -288,7 +282,7 @@ form {
 @media only screen and (min-width: 1025px) {
   body {
     background-color: #FFFFFF;
-    font-size: 12.8px;
+    font-size: 16px;
     margin: 0 3%;
   }
   #wrapper {

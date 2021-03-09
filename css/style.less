@@ -19,12 +19,12 @@ Programmer: Evelyn Vasquez
 
 /* sizes */
 
-@mFontSize: 16px;
-@tFontSize: @mFontSize * .9;
-@dFontSize: @mFontSize * .8;
+@mFontSize: 12px;
+@tFontSize: 14px;
+@dFontSize: 16px;
 @h1FontSize: 3em;
-@h2FontSize: @h1FontSize * .8;
-@h3FontSize: @h1FontSize * .6;
+@h2FontSize: 2.5em;
+@h3FontSize: 2em;
 @summaryFontSize: .6em;
 @summaryFirstFontSize: 1.5em;
 @designerFontSize: .75em;
@@ -88,6 +88,7 @@ h2 {
     font: @h2FontSize;
 	margin: @pHeadingMargin;
 	font-weight: bold;
+    text-decoration: underline;
 }
 
 h3 {
@@ -145,30 +146,27 @@ select {
 }
 
 table {
-     border: 2px solid #ffffff; 
+     border: 2px solid @borderColor; 
      margin: auto; 
      padding-bottom: 50px; 
-     width: 600px; 
+     width: 350px; 
 }
 
 td {
-     background-color: #ffffff; 
-     border: 1px solid #0b344d; 
-     color: #363636; 
+     background-color: @BgColor; 
+     border: 1px solid @borderColor;
      font-weight: bold; 
      font-family: Prata, Arial, serif; 
-     font-size: .95em; 
-     padding: .5em; 
+     font-size: 12px; 
      text-align: center; 
 }
 
 th {
-     background-color: #0b344d; 
-     color: #ffffff; 
-     font-size: 1.15em; 
-     font-weight: bold; 
+     background-color: @BgColor; 
+     color: @borderColor; 
+     border: 1px solid @borderColor;
+     font-size: 12px;  
      font-family: Prata, Arial, serif; 
-     padding: .5em; 
      text-align: center; 
 }
 
@@ -327,11 +325,7 @@ form {
         padding-bottom: .1em; 
         padding-left: .4em; 
     }
-          
-     main img {
-        display: none; 
-        padding-right: 0; 
-    }
+        
           
      main ul {
         list-style-position: outside; 
