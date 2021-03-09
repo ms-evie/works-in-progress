@@ -1,7 +1,7 @@
 <?php
 try
 {
-  $pdo = new PDO('mysql:host=localhost;dbname=evelynwe_project', 'user2', 'cxXyaZi8oSnGUyD5');
+  $pdo = new PDO('mysql:host=localhost;dbname=evelynwe_project', 'evelynwe_project_user', 'cxXyaZi8oSnGUyD5');
   $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
   $pdo->exec('SET NAMES "utf8"');
 }
@@ -34,3 +34,4 @@ while ($row = $result->fetch())
 }
 
 include 'home/home.html.php';
+?>
