@@ -2,7 +2,7 @@
 
 // Edit or Replace this try/catch statement to work with the current PHT configuration
 
-include '../includes/db.inc.html.php';
+require '../includes/db.inc.html.php';
 
 // Modify the If statement so the try only runs if the First Name field has been submitted AND the honeypot field is empty ''
 if (isset($_POST['myfname']) && empty($honeypot) )
@@ -55,6 +55,7 @@ if (isset($_POST['myfname']) && empty($honeypot) )
       include '../includes/error.html.php';
       exit();
     }
+    
     include 'success.html.php';
     
   } else {

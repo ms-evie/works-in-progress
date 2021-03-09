@@ -19,13 +19,12 @@
     <main>
         <?php include '../includes/nav.inc.html.php'; ?>
         
-         <h2>Thank you!</h2>
+         <h3>Thank you!</h3>
             <p>Our records show you submitted the following:<br>
                Role: <?php echo htmlspecialchars($role, ENT_QUOTES, 'UTF-8');?> <!-- print role from form submission here --><br>
                Full Name: <?php echo htmlspecialchars($myfname, ENT_QUOTES, 'UTF-8');?><!-- print full name from form submission here --><br>
                Email: <?php echo htmlspecialchars($myemail, ENT_QUOTES, 'UTF-8');?><!-- print email address from form submission here --><br>
-               Phone: <?php echo htmlspecialchars($myphone, ENT_QUOTES, 'UTF-8');?><!-- print phone number from form submission here --><br>
-               T-shirt Size: <?php echo htmlspecialchars($size, ENT_QUOTES, 'UTF-8');?> <!-- print t-shirt size from form submission here --><br>    
+               Phone: <?php echo htmlspecialchars($myphone, ENT_QUOTES, 'UTF-8');?><!-- print phone number from form submission here --><br>   
                Accommodations: <?php echo htmlspecialchars($mycomments, ENT_QUOTES, 'UTF-8');?><!-- print accommodations from form submission here --><br>
              </p>
             </main>
