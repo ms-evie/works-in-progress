@@ -18,7 +18,8 @@
     <div id="wrapper">
             <?php include '../includes/nav.inc.html.php'; ?>
     <main>    
-        <h1>Registration</h1>
+        <h1>Registration</h1><br>
+        <img src="../images/Alice_Edmonds.jpg" alt="Racing people" style="width:100% ;height:80%;">
             <h2>Register Here!</h2>
                 <p>This registration form is intended for athletes who want to participate in the events and volunteers who want to volunteer during the events. </p>
         
