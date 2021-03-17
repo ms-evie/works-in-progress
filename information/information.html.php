@@ -18,7 +18,8 @@
     <div id="wrapper">
     <?php include '../includes/nav.inc.html.php'; ?>
         <main>
-            <h1>Information</h1>
+            <h1>Information</h1><br>
+            <img src="../images/Thomas_Wolter.jpg" alt="women racing" style="width:100% ;height:80%;">
                 <?php foreach ($contents as $content): ?>
             <h2><?php echo htmlspecialchars($content['title'], ENT_QUOTES, 'UTF-8'); ?></h2>
                  <?php echo $content['description']; ?>
