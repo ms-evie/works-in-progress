@@ -4,7 +4,7 @@
     <header class="header">
          <input class="menu-btn" type="checkbox" id="menu-btn" />
          <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
-         <img src="<?php echo BASE_URL ?>images/logo.png">
+         <img src="<?php echo BASE_URL ?>images/logo.png" alt="Ace in a hole multisport events">
     
         <ul class="menu">
             <li><a href="<?php echo BASE_URL; ?>">Home</a></li>
